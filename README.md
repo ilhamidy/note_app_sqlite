@@ -1,8 +1,11 @@
 <div align="center">
+  /*ini ganti dengan gambar antum sendiri*/
   <img src="https://github.com/user-attachments/assets/c0f95e75-44e8-4cda-a8bf-8e1f0177cbe4" width="30%" />
   &nbsp;&nbsp;
+  /*ini ganti dengan gambar antum sendiri*/
   <img src="https://github.com/user-attachments/assets/d47e9432-8772-4f76-903c-a65bce5ac25a" width="30%" />
   &nbsp;&nbsp;
+  /*ini ganti dengan gambar antum sendiri*/
   <img src="https://github.com/user-attachments/assets/0389451f-f4d8-4dce-aea7-356c0a9ba6c8" width="30%" />
 </div>
 
