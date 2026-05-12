@@ -1,6 +1,8 @@
-<img width="453" height="957" alt="Cuplikan layar 2026-05-12 112508" src="https://github.com/user-attachments/assets/c0f95e75-44e8-4cda-a8bf-8e1f0177cbe4" />
-<img width="462" height="955" alt="Cuplikan layar 2026-05-12 112533" src="https://github.com/user-attachments/assets/d47e9432-8772-4f76-903c-a65bce5ac25a" />
-<img width="457" height="957" alt="Cuplikan layar 2026-05-12 112559" src="https://github.com/user-attachments/assets/0389451f-f4d8-4dce-aea7-356c0a9ba6c8" />
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/c0f95e75-44e8-4cda-a8bf-8e1f0177cbe4" width="30%" />
+  <img src="https://github.com/user-attachments/assets/d47e9432-8772-4f76-903c-a65bce5ac25a" width="30%" />
+  <img src="https://github.com/user-attachments/assets/0389451f-f4d8-4dce-aea7-356c0a9ba6c8" width="30%" />
+</div>
 
 📝 NOTEAPP
 
