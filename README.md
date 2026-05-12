@@ -6,6 +6,9 @@
   <img src="https://github.com/user-attachments/assets/0389451f-f4d8-4dce-aea7-356c0a9ba6c8" width="30%" />
 </div>
 
+//==============================================================================================================================
+
+
 📝 NOTEAPP
 
 Aplikasi catatan sederhana menggunakan Flutter dan SQLite sebagai penyimpanan database lokal.
