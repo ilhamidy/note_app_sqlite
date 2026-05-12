@@ -1,129 +1,77 @@
-📝 Note App Flutter
+<img width="453" height="957" alt="Cuplikan layar 2026-05-12 112508" src="https://github.com/user-attachments/assets/c0f95e75-44e8-4cda-a8bf-8e1f0177cbe4" />
+<img width="462" height="955" alt="Cuplikan layar 2026-05-12 112533" src="https://github.com/user-attachments/assets/d47e9432-8772-4f76-903c-a65bce5ac25a" />
+<img width="457" height="957" alt="Cuplikan layar 2026-05-12 112559" src="https://github.com/user-attachments/assets/0389451f-f4d8-4dce-aea7-356c0a9ba6c8" />
+
+📝 NOTEAPP
 
 Aplikasi catatan sederhana menggunakan Flutter dan SQLite sebagai penyimpanan database lokal.
-Project ini dibuat untuk pembelajaran CRUD Flutter dengan implementasi:
+Aplikasi ini mendukung fitur CRUD (Create, Read, Update, Delete) dengan tampilan modern serta dukungan Dark Mode dan Light Mode.
 
-✨ Dark Mode & Light Mode
-🗂️ Penyimpanan data lokal SQLite
-📝 Tambah, edit, hapus catatan
-💾 Auto Save note
-📱 UI sederhana dan responsive
-🌙 Theme management
-📸 Preview Aplikasi
-🏠 Home Page
-Menampilkan seluruh daftar catatan
-Grid note card
-Toggle dark/light mode
-✍️ Detail Note
-Tambah catatan
-Edit catatan
-Auto save saat kembali
-Hapus catatan dengan dialog konfirmasi
-🚀 Fitur Utama
-🌙 Dark Mode & Light Mode
+✨ Features
+📝 Menambahkan catatan
+✏️ Mengedit catatan
+❌ Menghapus catatan
+💾 Penyimpanan data lokal SQLite
+🌙 Dark Mode & ☀️ Light Mode
+🎬 Animated Splash Screen
+🎨 Custom UI menggunakan Google Fonts
+📱 Responsive Grid Layout
 
-Aplikasi mendukung perubahan tema secara realtime menggunakan ThemeData.
+📦 Package Used
+sqflite
+path
+google_fonts
+animated_splash_screen
+lottie
+🗃️ Database
 
-theme: isDark ? AppTheme.dark : AppTheme.light
-📝 CRUD Catatan
-
-Fitur CRUD lengkap:
-
-➕ Tambah catatan
-✏️ Edit catatan
-❌ Hapus catatan
-📖 Lihat daftar catatan
-💾 Database SQLite
-
-Menggunakan package:
+Menggunakan database lokal SQLite dengan package:
 
 sqflite
 
-Database lokal digunakan untuk menyimpan:
+Data catatan yang disimpan:
 
-Judul catatan
-Isi catatan
+Title
+Content
 Author
-Tanggal dibuat
-Tanggal update
-⚡ Auto Save
-
-Ketika user menekan tombol kembali:
-
-Navigator.pop(context, note);
-
-data otomatis tersimpan ke SQLite.
-
-🧱 Struktur Project
+Created At
+Updated At
+📂 Project Structure
 lib/
 │
 ├── models/
-│   └── note_model.dart
-│
 ├── pages/
-│   ├── home_page.dart
-│   └── note_page.dart
-│
 ├── services/
-│   └── database_helper.dart
-│
 ├── theme/
-│   └── app_theme.dart
-│
 ├── widgets/
-│   ├── confirm_dialog.dart
-│   └── note_card.dart
-│
 └── main.dart
-🗃️ Struktur Database
-Table: notes
-Field	Type
-id	INTEGER
-title	TEXT
-content	TEXT
-author	TEXT
-created_at	TEXT
-updated_at	TEXT
-📦 Dependencies
+📱 UI Preview
+☀️ Light Mode
+Tampilan cerah dan clean
+Grid note card
+Floating action button
+🌙 Dark Mode
+Tema gelap modern
+Warna card menyesuaikan tema
+UI lebih nyaman di malam hari
+🚀 Installation
 
-Tambahkan dependency berikut pada pubspec.yaml:
+Clone repository:
 
-dependencies:
-  flutter:
-    sdk: flutter
-
-  sqflite: ^2.4.2
-  path: ^1.9.1
-  google_fonts: ^6.2.1
-⚙️ Install Project
-1️⃣ Clone Repository
 git clone https://github.com/username/noteapp.git
-2️⃣ Masuk Folder Project
-cd noteapp
-3️⃣ Install Dependency
+
+Install dependencies:
+
 flutter pub get
-4️⃣ Jalankan Aplikasi
+
+Run application:
+
 flutter run
-🧠 Teknologi Yang Digunakan
-Teknologi	Fungsi
-Flutter	Framework aplikasi
-Dart	Bahasa pemrograman
-SQLite	Database lokal
-sqflite	Package SQLite Flutter
-Google Fonts	Custom typography
-📚 Materi Yang Dipelajari
-
-Project ini cocok untuk pembelajaran:
-
-StatefulWidget
-Navigation
-CRUD Flutter
-SQLite Database
-Theme Management
-Dialog
-Form Input
-Local Storage
-Clean Folder Structure
+🧠 Built With
+Flutter
+Dart
+SQLite
+Material Design
 👨‍💻 Developer
 
-Made with ❤️ using Flutter & SQLite.
+Made with ❤️ using Flutter.
