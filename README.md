@@ -1,16 +1,129 @@
-# noteapp
+📝 Note App Flutter
 
-A new Flutter project.
+Aplikasi catatan sederhana menggunakan Flutter dan SQLite sebagai penyimpanan database lokal.
+Project ini dibuat untuk pembelajaran CRUD Flutter dengan implementasi:
 
-## Getting Started
+✨ Dark Mode & Light Mode
+🗂️ Penyimpanan data lokal SQLite
+📝 Tambah, edit, hapus catatan
+💾 Auto Save note
+📱 UI sederhana dan responsive
+🌙 Theme management
+📸 Preview Aplikasi
+🏠 Home Page
+Menampilkan seluruh daftar catatan
+Grid note card
+Toggle dark/light mode
+✍️ Detail Note
+Tambah catatan
+Edit catatan
+Auto save saat kembali
+Hapus catatan dengan dialog konfirmasi
+🚀 Fitur Utama
+🌙 Dark Mode & Light Mode
 
-This project is a starting point for a Flutter application.
+Aplikasi mendukung perubahan tema secara realtime menggunakan ThemeData.
 
-A few resources to get you started if this is your first Flutter project:
+theme: isDark ? AppTheme.dark : AppTheme.light
+📝 CRUD Catatan
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Fitur CRUD lengkap:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+➕ Tambah catatan
+✏️ Edit catatan
+❌ Hapus catatan
+📖 Lihat daftar catatan
+💾 Database SQLite
+
+Menggunakan package:
+
+sqflite
+
+Database lokal digunakan untuk menyimpan:
+
+Judul catatan
+Isi catatan
+Author
+Tanggal dibuat
+Tanggal update
+⚡ Auto Save
+
+Ketika user menekan tombol kembali:
+
+Navigator.pop(context, note);
+
+data otomatis tersimpan ke SQLite.
+
+🧱 Struktur Project
+lib/
+│
+├── models/
+│   └── note_model.dart
+│
+├── pages/
+│   ├── home_page.dart
+│   └── note_page.dart
+│
+├── services/
+│   └── database_helper.dart
+│
+├── theme/
+│   └── app_theme.dart
+│
+├── widgets/
+│   ├── confirm_dialog.dart
+│   └── note_card.dart
+│
+└── main.dart
+🗃️ Struktur Database
+Table: notes
+Field	Type
+id	INTEGER
+title	TEXT
+content	TEXT
+author	TEXT
+created_at	TEXT
+updated_at	TEXT
+📦 Dependencies
+
+Tambahkan dependency berikut pada pubspec.yaml:
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  sqflite: ^2.4.2
+  path: ^1.9.1
+  google_fonts: ^6.2.1
+⚙️ Install Project
+1️⃣ Clone Repository
+git clone https://github.com/username/noteapp.git
+2️⃣ Masuk Folder Project
+cd noteapp
+3️⃣ Install Dependency
+flutter pub get
+4️⃣ Jalankan Aplikasi
+flutter run
+🧠 Teknologi Yang Digunakan
+Teknologi	Fungsi
+Flutter	Framework aplikasi
+Dart	Bahasa pemrograman
+SQLite	Database lokal
+sqflite	Package SQLite Flutter
+Google Fonts	Custom typography
+📚 Materi Yang Dipelajari
+
+Project ini cocok untuk pembelajaran:
+
+StatefulWidget
+Navigation
+CRUD Flutter
+SQLite Database
+Theme Management
+Dialog
+Form Input
+Local Storage
+Clean Folder Structure
+👨‍💻 Developer
+
+Made with ❤️ using Flutter & SQLite.
